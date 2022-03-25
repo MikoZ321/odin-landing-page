@@ -62,13 +62,13 @@ li {
 
 .main-container .image {
     width: 640px;
-    height: 257px;
+    height: 260px;
     overflow: hidden;
 }
 
 .main-container .image img {
     flex: 1 1 auto;
-    margin-top: -170px;
+    margin-top: -160px;
 }
 
 .hero-text {
