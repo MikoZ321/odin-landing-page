@@ -12,9 +12,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 48px;
-    font-weight: bolder;
-    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
     background-color: #1f2937;
     width: 100vw;
     padding: 16px 200px;
@@ -41,4 +41,52 @@ ul {
 li {
     display: flex;
     align-items: center;
+}
+
+.main-container {
+    display: flex;
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 16px 200px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: space-between;
+}
+
+.main-container .text {
+    display: flex;
+    width: 640px;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main-container .image {
+    width: 640px;
+    height: 215px;
+    overflow: hidden;
+}
+
+.main-container .image img {
+    flex: 1 1 auto;
+    margin-top: -170px;
+}
+
+.hero-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.main-container .subtext {
+    font-size: 18px;
+}
+
+.main-container .button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 0px;
+    padding: 8px 16px;
+    margin-top: 16px;
 }
