@@ -17,7 +17,7 @@ body {
     color: #f9faf8;
     background-color: #1f2937;
     width: 100vw;
-    padding: 16px 200px;
+    padding: 16px 250px;
 }
 
 a {
@@ -47,7 +47,7 @@ li {
     display: flex;
     width: 100vw;
     box-sizing: border-box;
-    padding: 100px 200px;
+    padding: 100px 250px;
     background-color: #1f2937;
     color: #e5e7eb;
     justify-content: space-between;
@@ -62,7 +62,7 @@ li {
 
 .main-container .image {
     width: 640px;
-    height: 215px;
+    height: 257px;
     overflow: hidden;
 }
 
@@ -89,4 +89,44 @@ li {
     border: 0px;
     padding: 8px 16px;
     margin-top: 16px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.cards {
+    display: flex;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content .header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    margin-top: 32px;
+}
+
+.card .image {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882f6;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.card .subtext {
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    text-align: center;
 }
