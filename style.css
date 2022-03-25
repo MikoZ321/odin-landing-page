@@ -89,6 +89,8 @@ li {
     border: 0px;
     padding: 8px 16px;
     margin-top: 16px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 .card-content {
