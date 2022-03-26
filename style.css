@@ -104,6 +104,7 @@ li {
 .cards {
     display: flex;
     gap: 32px;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -133,4 +134,34 @@ li {
     width: 200px;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.quote-content {
+    background-color: #e5e7eb;
+    display: flex;
+    width: 100vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 64px;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+i {
+    font-weight: lighter;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 24px;
 }
